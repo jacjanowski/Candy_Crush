@@ -1,0 +1,42 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+/* REMOVE ME - dashed lines and height for debugging */
+#firstColumn {
+  text-align: center;
+  /* margin: auto; */
+  border: 2px solid;
+  border-radius: 25px;
+}
+#mainColumn {
+  outline: 2px solid black;
+  min-height: 320px;
+  max-width:  320px;
+  padding: 0 10px;
+}
+
+/* td,
+tr {
+  padding: 10px;
+  border-bottom: 2px solid #8ebf42;
+  text-align: center;
+  border-left: 2px solid #8ebf42;
+  border-right: 2px solid #8ebf42;
+} */
+
+.row {
+  display: flex;
+  /* justify-content:space-between;  */
+}
+/* Your css code here! */
+
+@media (max-width: 768px){
+
+  #mainColumn{
+    margin: auto;
+
+  }
+
+
+}
