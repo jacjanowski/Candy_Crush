@@ -5,14 +5,20 @@
 /* REMOVE ME - dashed lines and height for debugging */
 #mainColumn {
   outline: 1px dashed orange;
-  min-height: 320px;
-  min-width:  320px;
+  /* min-height: 320px;
+  max-width:  320px; */
   padding: 0 10px;
 }
 
 #firstColumn {
   text-align: center;
-  margin: auto;
-  border: 2px solid
+  /* margin: auto; */
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+.row {
+  display: flex;
+  /* justify-content:space-between;  */
 }
 /* Your css code here! */
