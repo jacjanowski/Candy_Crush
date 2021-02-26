@@ -5,26 +5,27 @@
 /* REMOVE ME - dashed lines and height for debugging */
 #firstColumn {
   text-align: center;
-  /* margin: auto; */
+  margin: auto;
   border: 2px solid;
   border-radius: 25px;
 }
 #mainColumn {
   outline: 2px solid black;
-  min-height: 320px;
-  max-width:  320px;
   padding: 0 10px;
 }
-
-/* td,
+.table-responsive {
+  max-height: 320px;
+  max-width:  320px;
+  margin: auto;
+}
+td,
 tr {
   padding: 10px;
   border-bottom: 2px solid #8ebf42;
   text-align: center;
   border-left: 2px solid #8ebf42;
   border-right: 2px solid #8ebf42;
-} */
-
+}
 .row {
   display: flex;
   /* justify-content:space-between;  */
