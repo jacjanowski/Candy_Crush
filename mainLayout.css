@@ -3,7 +3,7 @@
  */
 
 /* REMOVE ME - dashed lines and height for debugging */
-#firstColumn {
+#firstColumn, #lastColumn {
   text-align: center;
   margin: auto;
   border: 2px solid;
@@ -14,17 +14,18 @@
   padding: 0 10px;
 }
 .table-responsive {
-  max-height: 320px;
+  padding: 1em;
   max-width:  320px;
   margin: auto;
 }
 td,
 tr {
   padding: 10px;
-  border-bottom: 2px solid #8ebf42;
+  border-top: 2px solid #fc9393;
+  border-bottom: 2px solid #fc9393;
   text-align: center;
-  border-left: 2px solid #8ebf42;
-  border-right: 2px solid #8ebf42;
+  border-left: 2px solid #fc9393;
+  border-right: 2px solid #fc9393;
 }
 .row {
   display: flex;
