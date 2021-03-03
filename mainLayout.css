@@ -15,9 +15,14 @@
 }
 .table-responsive {
   padding: 1em;
-  max-width:  320px;
+  width:  320px;
+  height: 320px;
   margin: auto;
 }
+.table tr td {
+  padding: 4px;
+}
+
 td,
 tr {
   padding: 10px;
@@ -30,6 +35,17 @@ tr {
 .row {
   display: flex;
   /* justify-content:space-between;  */
+}
+.btn-outline-warning {
+  background-color: black;
+  display: block;
+}
+#right,#left{
+  margin: 1em;
+  display: inline-block;
+}
+#up, #down {
+  margin: auto;
 }
 /* Your css code here! */
 

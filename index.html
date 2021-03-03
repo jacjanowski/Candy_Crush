@@ -87,7 +87,8 @@ Collaborators:
 
     // add a candy to the board
     $(board).on('add', function (e, info) {
-      // Your code here.
+
+      //your code here      
     });
 
     // move a candy on the board
@@ -125,13 +126,13 @@ Collaborators:
 
   <div class="container-fluid">
 
-      <h1 style="color:firebrick; text-align: center;">Candy Crush: the Game that Crushes</h1>
+    <h1 style="color:firebrick; text-align: center;">Candy Crush: The Game That Crushes</h1>
     <div class="row">
       <div class="col-md-3" id="firstColumn">
         <div>
           <!-- Column 1 Code Here -->
           <p style="color:mediumslateblue; font-size: larger;"><b>Candy Crush Game</b></p>
-          <input class="btn btn-info" type="button" value="Play">
+          <input class="btn btn-info" type="button" value="New Game">
 
         </div>
       </div>
@@ -227,18 +228,20 @@ Collaborators:
         </table>
 
         </div>
-
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non , ipsum dolor sit amet consectetur adipisicing elit. Non , ipsum dolor sit amet consectetur adipisicing elit. Non , ipsum dolor sit amet consectetur adipisicing elit. Non , ipsum dolor sit amet consectetur adipisicing elit. Non sed placeat amet dignissimos temporibus est aut dolore reiciendis? Rem aut a ut iure ex ullam. Tempora voluptate nemo quas consequatur quibusdam ducimus, incidunt dicta autem culpa? Laboriosam, vel quidem? Nostrum quas repudiandae eligendi hic!
-        </p>
-
+        <p style="text-align: center;"><em>Resize the page to see that the board will take up the entire page!</em></p>
+        <p style="text-align: center;"><em>Also, both the left and right padding of this center column are both 10px</em></p>
       </div> <!-- class="row" -->
 
       <div class="col-md-3" id="lastColumn">
 
         <!-- Column 3 Code Here -->
-        <p style="color:rgb(233, 133, 133); font-size: larger;"><b>Controller</b></p>
-        <input class="btn btn-danger" type="button" value="Crush Once">
+        <label for="move">Move:</label>
+        <input type="text" style="width: 50px;" id="move" name="move"><br><br>
+        <button type="button" id="up" class="btn btn-outline-warning">↑</button>
+        <button type="button" id="left" class="btn btn-outline-warning">←</button>
+        <button type="button" id="right" class="btn btn-outline-warning">→</button>
+        <button type="button" id="down" class="btn btn-outline-warning">↓</button>
+        <input class="btn btn-danger" style="margin: 10px 10px;" type="submit" value="Crush Once">
 
 
       </div>
