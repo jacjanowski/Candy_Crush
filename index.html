@@ -88,7 +88,7 @@ Collaborators:
     // add a candy to the board
     $(board).on('add', function (e, info) {
 
-      //your code here      
+            
     });
 
     // move a candy on the board
@@ -107,8 +107,9 @@ Collaborators:
     });
 
     // Button Events
-    $(document).on('click', "#buttonIDhere", function (evt) {
-      // Your code here.
+    $(document).on('click', ".btn-outline-warning", function (evt) {
+      document.getElementById("move").value = "";
+      console.log(evt)
     });
 
     // keyboard events arrive here
@@ -241,7 +242,7 @@ Collaborators:
         <button type="button" id="left" class="btn btn-outline-warning">←</button>
         <button type="button" id="right" class="btn btn-outline-warning">→</button>
         <button type="button" id="down" class="btn btn-outline-warning">↓</button>
-        <input class="btn btn-danger" style="margin: 10px 10px;" type="submit" value="Crush Once">
+        <input class="btn btn-danger" id="new-game" style="margin: 10px 10px;" type="submit" value="Crush Once">
 
 
       </div>
