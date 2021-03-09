@@ -3,22 +3,58 @@
  */
 
 /* REMOVE ME - dashed lines and height for debugging */
-#mainColumn {
-  outline: 1px dashed orange;
-  /* min-height: 320px;
-  max-width:  320px; */
-  padding: 0 10px;
-}
-
-#firstColumn {
+#firstColumn, #lastColumn {
   text-align: center;
-  /* margin: auto; */
+  margin: auto;
   border: 2px solid;
   border-radius: 25px;
 }
+#mainColumn {
+  outline: 2px solid black;
+  padding: 0 10px;
+}
+.table-responsive {
+  padding: 1em;
+  width:  320px;
+  height: 320px;
+  margin: auto;
+}
+.table tr td {
+  padding: 4px;
+}
 
+td,
+tr {
+  padding: 10px;
+  border-top: 2px solid #fc9393;
+  border-bottom: 2px solid #fc9393;
+  text-align: center;
+  border-left: 2px solid #fc9393;
+  border-right: 2px solid #fc9393;
+}
 .row {
   display: flex;
   /* justify-content:space-between;  */
 }
+.btn-outline-warning {
+  background-color: black;
+  display: block;
+}
+#right,#left{
+  margin: 1em;
+  display: inline-block;
+}
+#up, #down {
+  margin: auto;
+}
 /* Your css code here! */
+
+@media (max-width: 768px){
+
+  #mainColumn{
+    margin: auto;
+
+  }
+
+
+}
